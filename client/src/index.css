@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&display=swap');
+@import "tailwindcss";
+/* Import Noto Kufi Arabic */
+body {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
