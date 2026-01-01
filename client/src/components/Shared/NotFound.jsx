@@ -17,7 +17,7 @@ export default function NotFound() {
           initial={{ scale: 0.8 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-9xl md:text-[180px] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400 leading-none"
+          className="text-9xl md:text-[180px] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#CC5500] to-[#ffae74] leading-none"
         >
           404
         </motion.h1>
@@ -55,7 +55,7 @@ export default function NotFound() {
         >
           <Link
             to="/"
-            className="inline-block px-10 py-5 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-xl font-bold rounded-2xl hover:from-blue-700 hover:to-blue-800 transition shadow-xl"
+            className="inline-block px-10 py-5 bg-gradient-to-r from-[#CC5500] to-[#ffae74] text-white text-xl font-bold rounded-2xl hover:from-[#622900] hover:to-[#e5680f] transition shadow-xl"
           >
             Back to Menu
           </Link>
